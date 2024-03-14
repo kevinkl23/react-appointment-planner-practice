@@ -76,7 +76,7 @@ export const ContactsPage = ( {contacts, addContacts } ) => {
     <div>
       <section>
         <h2>Add Contact</h2> 
-        <ContactForm name={name} phone={phone} email={email} handleNameChange={handleNameChange} handlePhoneChange={handlePhoneChange} handleEmailChange={handleEmailChange} handleSubmit={handleSubmit}/>
+        <ContactForm name={name} phone={phone} email={email} setName={handleNameChange} setPhone={handlePhoneChange} setEmail={handleEmailChange} handleSubmit={handleSubmit}/>
       </section>
       <hr />
       <section> 
